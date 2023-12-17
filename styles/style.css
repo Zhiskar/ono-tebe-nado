@@ -216,7 +216,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 26.4px */
+  line-height: 100%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
   margin-top: 0;
