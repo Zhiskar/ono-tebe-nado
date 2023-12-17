@@ -102,14 +102,14 @@
 .aligned-text {
   display: block;
   text-align: left;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   letter-spacing: 30px;
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   letter-spacing: 30px;
 }
 
@@ -216,7 +216,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 26.4px */
+  line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
   margin-top: 0;
@@ -298,7 +298,10 @@
   grid-template-columns: 430px 1fr;
   grid-template-rows: 487px;
   justify-content: stretch;
-  margin: 180px 50px;
+  margin-top: 0;
+  margin-right: 50px;
+  margin-bottom: 180px;
+  margin-left: 50px;
   gap: 25px;
 }
 
@@ -317,7 +320,9 @@
 .about__logo-image {
   width: 148px;
   height: 114px;
-  padding: 63px 46px;
+  justify-self: center;
+  align-self: center;
+  /*padding: 63px 46px;*/
 }
 
 .about__column-text {
@@ -356,7 +361,10 @@
   grid-template-columns: 3/1fr;
   grid-template-rows: 97px;
   justify-content: stretch;
-  padding: 180px 50px;
+  padding-top: 0;
+  padding-right: 50px;
+  padding-bottom: 180px;
+  padding-left: 50px;
 }
 
 .footer__address {
