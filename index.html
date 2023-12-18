@@ -13,7 +13,8 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
+          <!--Назначен один класс для всех ссылок в блоке-->
+          <li class="header__links-list-item header__links-list-item_no-bullit">
             <a class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -36,9 +37,10 @@
       <address class="address header__address">
         <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <!--Убраны теги span-->
         <p>
-          <span>наб. Принсенграхт 263-265,</span><br />
-          <span>Амстердам</span>
+          наб. Принсенграхт 263-265,<br />
+          Амстердам
         </p>
       </address>
     </header>
@@ -62,7 +64,8 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-buttone">Сделать ставку</button>
+          <!--Кнопке указан атрибут type-->
+          <button class="bet-buttone" type="button">Сделать ставку</button>
         </article>
       </section>
       <section class="lots">
@@ -70,7 +73,7 @@
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card__link" href="#0">
-              <article class="card_type_film">
+              <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
@@ -85,7 +88,7 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card__link" href="#0">
-              <article class="card_type_book">
+              <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -103,7 +106,7 @@
           </li>
           <li class="lots__card-list-item">
             <a class="card__link" href="#0">
-              <article class="card_type_picture">
+              <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -130,7 +133,8 @@
             alt="Логотип: белый на черном фоне"
           />
         </div>
-        <section class="about__column-text">
+        <!--Section заменен на span-->
+        <span class="about__column-text">
           <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
@@ -147,7 +151,7 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </section>
+        </span>
       </section>
     </main>
     <footer class="footer">
@@ -161,8 +165,9 @@
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
+          <!--Назначен один класс для всех ссылок в блоке-->
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active">главная</a>
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="">посмотреть лоты</a>
@@ -172,7 +177,8 @@
           </li>
         </ul>
       </nav>
-      <nav class="footer__social">
+      <!--Тег nav заменен на div-->
+      <div class="footer__social">
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
             <a
@@ -223,7 +229,7 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
