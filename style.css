@@ -358,7 +358,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 3/1fr;
   justify-content: stretch;
   padding-top: 0;
   padding-right: 50px;
